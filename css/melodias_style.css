@@ -9,6 +9,25 @@
 }
 
 
+/*Genero*/
+
+#genero {
+    background-color: var(--color_letra_generos);
+}
+
+#genero h1 {
+    color: var(--color_letra);
+    margin: 0;
+}
+.p1{
+    color: var(--color_letra);
+    font-family: 'Courgette', cursive;
+}
+
+.h5, p{
+    font-family: 'Courgette', cursive;
+}
+
 /*Body*/
 
 body {
@@ -21,6 +40,11 @@ h2{
     font-family: 'Courgette', cursive;
 }
 
+div {
+    position: relative;
+}
+
+
 /*inicio*/
 
 #inicio a {
@@ -28,51 +52,6 @@ h2{
 }
 
 
-/* Regilla generos  */
-
-#generos {
-    background-color: var(--background_generos);
-    padding: 50px;
-    height: 100%;
-    text-align: center;
-}
-
-#generos img {
-    width: 260px;
-    height: 225px;
-}
-
-#generos .col-lg-3 {
-    margin: 0 !important;
-    width: 260px;
-    height: 225px;
-}
-
-#generos h1,
-#generos h2,
-#generos h3,
-#generos h4,
-#generos a {
-    color: var(--color_letra_generos);
-}
-
-#generos a:hover {
-    text-decoration: none;
-}
-
-.caset {
-    background-image: url("../img/cas_genero.png");
-    background-repeat: no-repeat;
-    background-size: 260px 230px;
-    background-color: transparent;
-    background-position: center;
-}
-
-.caset:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(0.9);
-    overflow: hidden;
-}
 
 
 /*imagen estatica*/
@@ -80,7 +59,7 @@ h2{
 header {
     position: relative;
     background-color: black;
-    height: 100vh;
+    height: 15vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -126,7 +105,10 @@ header .overlay {
 /*secciones*/
 
 .container-fluid {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+.container{
     width: 100%;
 }
 
@@ -150,16 +132,17 @@ header .overlay {
     color: var(--color_letra);
 }
 
-.discot {
-    background-image: url("../img/tocadiscor.png");
-    background-repeat: no-repeat;
-    background-size: 250px 160px;
-    background-color: transparent;
-    background-position: center;
+/* boton melodia*/
+.btn-primary{
+    background-color: #ff5500;
+    border-color: transparent;
 }
+.btn-primary:hover{
+    background-color: #ff5500ce;
+    border-color: transparent;
+}
+/*texto carta*/
 
-.discot:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(0.9);
-    overflow: hidden;
+.card-text{
+    color: var(--color_letra_generos);
 }
