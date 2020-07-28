@@ -132,7 +132,7 @@ header .overlay {
     color: var(--color_letra);
 }
 
-/* boton melodia*/
+/* boton letra y acordes*/
 .btn-primary{
     background-color: #ff5500;
     border-color: transparent;

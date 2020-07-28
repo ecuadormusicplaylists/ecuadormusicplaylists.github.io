@@ -147,7 +147,7 @@ header .overlay {
     color: var(--color_letra_generos);
 }
 
-/*Melodia*/
+/*Letra y Acordes*/
 .discot {
     background-image: url("../img/tocadiscor.png");
     background-repeat: no-repeat;
