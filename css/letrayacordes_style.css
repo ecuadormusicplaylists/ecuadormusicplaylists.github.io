@@ -3,7 +3,7 @@
 :root {
     --navbar: #1e5e60;
     --color_letra: #f2f2f2;
-    --color_letra_inico: ;
+    --color_letra_2: #212529;
     --background_generos: #84bfa4;
     --color_letra_generos: #002f37;
 }
@@ -24,9 +24,10 @@
     font-family: 'Courgette', cursive;
 }
 
-.h5, p{
+.h5{
     font-family: 'Courgette', cursive;
 }
+
 
 /*Body*/
 
@@ -145,4 +146,37 @@ header .overlay {
 
 .card-text{
     color: var(--color_letra_generos);
+}
+
+/*Collapse*/
+
+.lyc{
+    background-color: var(--navbar);
+    border-color: transparent;
+
+}
+
+
+.lyc1{
+    color: var(--color_letra);
+    
+
+}
+.lyc1:hover{
+    color: var(--color_letra);
+  
+}
+.collapse{
+    border-color: transparent;
+}
+
+.card-body{
+    color: var(--color_letra_2);
+}
+
+/*input*/
+textarea{
+
+    height: 100vh;
+    width: 100%;
 }
