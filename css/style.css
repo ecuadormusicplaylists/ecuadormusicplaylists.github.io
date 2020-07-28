@@ -33,7 +33,7 @@ h2{
 #generos {
     background-color: var(--background_generos);
     padding: 50px;
-    height: 100%;
+    height: 100vh;
     text-align: center;
 }
 
