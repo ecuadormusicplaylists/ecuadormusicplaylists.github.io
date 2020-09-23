@@ -168,3 +168,8 @@ header .overlay {
     transform: scale(0.9);
     overflow: hidden;
 }
+
+.c_color {
+    transition: all 1s ease;
+    background: linear-gradient(to bottom, #262626, #030202);
+}
