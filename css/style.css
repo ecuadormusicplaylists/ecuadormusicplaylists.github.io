@@ -1,11 +1,11 @@
 /*Varibales*/
 
 :root {
-    --navbar: #1e5e60;
+    --navbar: #141F40 ;
     --color_letra: #f2f2f2;
     --color_letra_inico: ;
-    --background_generos: #84bfa4;
-    --color_letra_generos: #002f37;
+    --background_generos: #85B3C0;
+    --color_letra_generos: #0D0D0D;
 }
 
 
@@ -96,12 +96,16 @@ header img {
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+  
+    width: 1350px;
+    height: 600px;
     z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
+    /*
+      min-width: 100%;
+    min-height: 100%;
+    
+   */
+   -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
