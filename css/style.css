@@ -278,7 +278,7 @@ header .overlay {
 
 .c_color {
     transition: all 1s ease;
-    background: linear-gradient(to bottom, #edecec, #edecec);
+    background: linear-gradient(to bottom, #171717, #171717);
    
 }
 
@@ -318,8 +318,8 @@ header .overlay {
   }
   
   .hovereffect img {
-    display: block;
-    position: relative;
+   
+   
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
   }
