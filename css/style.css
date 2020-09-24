@@ -330,10 +330,11 @@ header .overlay {
     -webkit-filter: brightness(0.6);
   }
   
-  .hovereffect a{
+  .hovereffect h2 {
     text-transform: uppercase;
     text-align: center;
     position: relative;
+    font-size: 28px;
     background-color: transparent;
     color: #FFF;
     padding: 1em 0;
