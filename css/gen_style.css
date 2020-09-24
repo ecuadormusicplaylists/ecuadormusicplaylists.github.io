@@ -1,12 +1,13 @@
 /*Varibales*/
 
 :root {
-    --navbar: #1e5e60;
+    --navbar: #000000 ;
     --color_letra: #f2f2f2;
     --color_letra_inico: ;
-    --background_generos: #84bfa4;
-    --color_letra_generos: #002f37;
+    --background_generos: #edecec;
+    --color_letra_generos: #f2f2f2;
 }
+
 
 
 /*Genero*/
@@ -115,10 +116,11 @@ header .overlay {
 
 /* Navbar*/
 .navbar {
-    background-color: var(--navbar);
-    opacity: 1;
-    /*height: 9vh;*/
-    width: 100%;
+    background-color: rgba(0,0,0,0.2) !important;
+    height: auto;
+    width: 100%;    
+   background: none;
+
 }
 
 .nav-link {
@@ -130,6 +132,12 @@ header .overlay {
 }
 .navbar-toggler-icon{
     color: var(--color_letra);
+}
+
+.c_color {
+
+    transition: all 1s ease;
+    background: linear-gradient(to bottom, #171717, #171717);
 }
 
 /* boton melodia*/
@@ -147,17 +155,4 @@ header .overlay {
     color: var(--color_letra_generos);
 }
 
-/*Letra y Acordes*/
-.discot {
-    background-image: url("../img/tocadiscor.png");
-    background-repeat: no-repeat;
-    background-size: 250px 160px;
-    background-color: transparent;
-    background-position: center;
-}
 
-.discot:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(0.9);
-    overflow: hidden;
-}
