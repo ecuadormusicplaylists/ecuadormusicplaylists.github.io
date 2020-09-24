@@ -129,11 +129,11 @@ header .overlay {
 
 /* Navbar*/
 .navbar {
-    background-color: transparent !important;
-    opacity: 1;
+    background-color: rgba(0,0,0,0.2) !important;
     height: auto;
     width: 100%;    
    background: none;
+
 }
 
 .nav-link {
@@ -162,9 +162,9 @@ header .overlay {
 }
 
 .c_color {
+
     transition: all 1s ease;
     background: linear-gradient(to bottom, #171717, #171717);
-   
 }
 
 /*efecto hover*/
