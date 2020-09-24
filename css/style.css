@@ -36,7 +36,7 @@ html{
 
 #generos {
     background-color: var(--background_generos);
-  
+  width: auto;
     height: auto;
     text-align: center;
 }
@@ -45,7 +45,7 @@ html{
 
 #generos .col-lg-3 {
     margin: 0 !important;
-    width: auto;
+    width: 100%;
     height: 300px;
 }
 
@@ -135,7 +135,7 @@ header .overlay {
 /*secciones*/
 
 .container-fluid {
-    height: auto;
+    height: 100vh;
     width: 100%;
 }
 
