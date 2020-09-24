@@ -7,9 +7,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <!--icono de pestaña-->
 
     <link rel="icon" type="image/png" href="img/LogoME.png">
@@ -81,12 +80,39 @@
     <div class="container-fluid " id="generos">
        
         
-            <div class="row align-items-center ">
+            <div class="row">
 
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect aling-content-center">
+                        <img class="img-responsive" src="http://placehold.it/350x200" alt="">
+                        <div class="overlay">
+                           <h2>Hover effect 4v2</h2>
+                           <a class="info" href="#">link here</a>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="img/fondo4.jpg" alt="">
+                        <div class="overlay">
+                           <h2>Hover effect 1</h2>
+                           <a class="info" href="#">link here</a>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="img/guitarra.png" alt="">
+                        <div class="overlay">
+                           <h2>Hover effect 4</h2>
+                           <a class="info" href="#">Ver género</a>
+                        </div>
+                    </div>
+                </div>
 
-                <a class="col-lg-3 col-md-6 col-sm-6 caset stretched-link" href="sites/Pasillo.html">
+                <a class="col-lg-3 col-md-6 col-sm-6 pasillo stretched-link" href="sites/Pasillo.html">
 
                     <h4>Pasillo</h4>
 
@@ -94,7 +120,7 @@
 
 
 
-                <a class="col-lg-3 col-md-6 col-sm-6 caset p-5 stretched-link" href="sites/Albazo.html">
+                <a class="col-lg-3 col-md-6 col-sm-6 albazo p-5 stretched-link" href="sites/Albazo.html">
 
                     <h4>Albazo </h4>
 
@@ -152,7 +178,7 @@
      <!--Navbar scroll-->
      <script>
         $(window).scroll(function() {
-            if ($("#navbarcc").offset().top > 532) {
+            if ($("#navbarcc").offset().top > 200) {
                 $("#navbarcc").addClass("c_color");
             } else {
                 $("#navbarcc").removeClass("c_color");
