@@ -4,7 +4,7 @@
     --navbar: #000000 ;
     --color_letra: #f2f2f2;
     --color_letra_inico: ;
-    --background_generos: #85B3C0;
+    --background_generos: #edecec;
     --color_letra_generos: #0D0D0D;
 }
 
@@ -36,8 +36,8 @@ html{
 
 #generos {
     background-color: var(--background_generos);
-    padding: 50px;
-    height: 100vh;
+  
+    height: auto;
     text-align: center;
 }
 
@@ -45,8 +45,8 @@ html{
 
 #generos .col-lg-3 {
     margin: 0 !important;
-    width: 260px;
-    height: 225px;
+    width: auto;
+    height: 300px;
 }
 
 #generos h1,
@@ -64,7 +64,9 @@ html{
 .caset {
     background-image: url("../img/cas_genero.png");
     background-repeat: no-repeat;
+    /*
     background-size: 260px 230px;
+    */
     background-color: transparent;
     background-position: center;
 }
@@ -133,7 +135,7 @@ header .overlay {
 /*secciones*/
 
 .container-fluid {
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
