@@ -2,7 +2,7 @@
 
 :root {
     --navbar: #000000 ;
-    --color_letra: #edecec;
+    --color_letra: #ffffff;
     --color_letra_inico: ;
     --background_generos: #edecec;
     --color_letra_generos: #edecec;
@@ -12,17 +12,17 @@
 
 /*Genero*/
 .intro{
-    background-color: white;
+    background-color: var(--color_letra_generos);
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 20px;
     
 }
 #genero {
-    background-color: var(--color_letra_generos);
+    background-color: white ;
     padding-right: 80px;
     padding-left: 80px;
-    padding-top: 20px;
+    padding-top: 30px;
     
 }
 
@@ -30,10 +30,7 @@
     color: #171717;
     margin: 0;
 }
-.p1{
-    color: var(--color_letra);
-    font-family: 'Montserrat Alternates', sans-serif;
-}
+
 
 .h5, p{
     font-family: 'Montserrat Alternates', sans-serif;
