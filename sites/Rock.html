@@ -46,7 +46,7 @@
 
     <header id="inicio">
         <div class="overlay"></div>
-        <img src="../img/fondo4.jpg" alt="">
+        <img src="../img/rock3.jpg" alt="">
         <div class="container h-100 ">
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 text-white">
@@ -58,22 +58,29 @@
         </div>
     </header>
 
-    <div class="container-fluid" id="genero">
-
-        <div class="container ">
-            <h1 class="text-left pt-4 px-5">Introducción
+  
+        <div cclass="container-fluid " id="genero">
+            <h1 class="text-left pb-2">Introducción
             </h1>
-            <h5 class="text-justify m-5 p1"> Es un término amplio que agrupa una variedad de géneros de música popular
+            <h5 class="text-justify pb-5"> Es un término amplio que agrupa una variedad de géneros de música popular
                 originados como rock and roll a principios de la década de 1950 en los Estados Unidos y que evolucionó
                 en un gran rango de diferentes estilos en los 60, particularmente en Reino Unido y los Estados
                 Unidos.1​2​ Tiene sus raíces en el rock and roll de los 40 y 50, proveniente de la combinación de
                 géneros anteriores como el blues, rhythm and blues y el country.
             </h5>
 
-            <h1 class="text-left m-5">Canciones:</h1>
         </div>
-        <div class="container">
 
+        <div class="container-fluid intro " >
+            <h1 class="text-center pt-5 pb-5">Reproductor
+            </h1>
+          
+            <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1133787514&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+    
+        </div>
+
+        <div class="container-fluid " id="genero">
+            <h1 class="text-center pb-4">Artistas</h1>
             <div class="row">
                 <div class="col-lg-6 col-sm-12 mb-4">
                     <div class="card ">
@@ -232,6 +239,17 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
+
+                <!--Navbar scroll-->
+                <script>
+                    $(window).scroll(function() {
+                        if ($("#navbarcc").offset().top > 200) {
+                            $("#navbarcc").addClass("c_color");
+                        } else {
+                            $("#navbarcc").removeClass("c_color");
+                        }
+                    });
+                </script>  
 </body>
 
 </html>
