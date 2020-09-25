@@ -2,31 +2,41 @@
 
 :root {
     --navbar: #000000 ;
-    --color_letra: #f2f2f2;
+    --color_letra: #edecec;
     --color_letra_inico: ;
     --background_generos: #edecec;
-    --color_letra_generos: #f2f2f2;
+    --color_letra_generos: #edecec;
 }
 
 
 
 /*Genero*/
-
+.intro{
+    background-color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    
+}
 #genero {
     background-color: var(--color_letra_generos);
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 20px;
+    
 }
 
-#genero h1 {
-    color: var(--color_letra);
+#genero h1, #genero p, #genero h5 {
+    color: #171717;
     margin: 0;
 }
 .p1{
     color: var(--color_letra);
-    font-family: 'Courgette', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .h5, p{
-    font-family: 'Courgette', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 /*Body*/
@@ -34,11 +44,11 @@
 body {
     /*font-family: 'Chelsea Market', cursive;
 */
-font-family: 'Lobster', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
 }
 
 h2{
-    font-family: 'Courgette', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 div {
@@ -66,8 +76,7 @@ header {
     overflow: hidden;
 }
 
-header h1,
-h2 {
+header h1, header h2 {
     color: var(--color_letra);
 }
 
@@ -140,19 +149,11 @@ header .overlay {
     background: linear-gradient(to bottom, #171717, #171717);
 }
 
-/* boton melodia*/
-.btn-primary{
-    background-color: #ff5500;
-    border-color: transparent;
-}
-.btn-primary:hover{
-    background-color: #ff5500ce;
-    border-color: transparent;
-}
+
 /*texto carta*/
 
 .card-text{
-    color: var(--color_letra_generos);
+    color: #171717;
 }
 
 
