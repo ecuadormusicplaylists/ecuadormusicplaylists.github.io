@@ -7,25 +7,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap" rel="stylesheet">
+
  <!--icono de pestaña-->
     
- <link rel="icon"  type="image/png" href="../img/LogoME.png">
-    <!-- Scroll -->
-    <script src="js/smooth-scroll.min.js"></script>
-    <!-- Animacion scroll-->
-    <script>
-        smoothScroll.init({
-            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
-            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
-            speed: 1000, // Integer. How fast to complete the scroll in milliseconds
-            easing: 'easeInOutCubic', // Easing pattern to use
-            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
-            callback: function (anchor, toggle) { } // Function to run after scrolling
-        });
-    </script>
-
+ <link rel="icon"  type="image/png" href="../img/logo.png">
+   
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -35,7 +23,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg fixed-top sticky-top">
+    <nav id="navbarcc" class="navbar navbar-expand-lg fixed-top">
 
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -57,7 +45,7 @@
 
     <header id="inicio">
         <div class="overlay"></div>
-        <img src="../img/fondo4.jpg" alt="">
+        <img src="../img/jazz.jpg" alt="">
         <div class="container h-100 ">
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 text-white">
@@ -69,30 +57,36 @@
         </div>
     </header>
 
-    <div class="container-fluid" id="genero">
 
-        <div class="container ">
-            <h1 class="text-left pt-4 px-5">Introducción
+        <div class="container-fluid " id="genero">
+            <h1 class="text-left pb-2">Introducción
             </h1>
-            <h5 class="text-justify m-5 p1">El jazz es una forma de arte musical que se originó en los Estados Unidos
+            <h5 class="text-justify pb-5">El jazz es una forma de arte musical que se originó en los Estados Unidos
                 mediante la confrontación de los negros con la música europea. La instrumentación, melodía y armonía del
                 jazz se derivan principalmente de la tradición musical de Occidente.
                 El ritmo, el fraseo y la producción de sonido, y los elementos de armonía de blues se derivan de la
                 música africana y del concepto musical de los afroamericanos.</h5>
-            <h1 class="text-left m-5">Canciones:</h1>
-        </div>
-        <div class="container">
 
+        </div>
+
+        
+        <div class="container-fluid intro " >
+            <h1 class="text-center pt-5 pb-5">Reproductor
+            </h1>
+          
+            <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1133787514&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+    
+        </div>
+
+        <div class="container-fluid " id="genero">
+            <h1 class="text-center pb-4">Artistas</h1>
             <div class="row">
                 <div class="col-lg-6 col-sm-12 mb-4">
                     <div class="card ">
 
-                        <iframe class="d-flex  card-img-top " width="100%" height="166" scrolling="no" frameborder="no"
-                            allow="autoplay"
-                            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/216069503&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
+                      
                         <div class="card-body">
-                            <h5 class="card-title">Claudia Martínez</h5>
+                            <h5 class="card-title pb-3"> <b> Claudia Martínez</b></h5>
                             <p class="card-text text-justify">Guitarrista, arreglista y compositora quiteña. Su trabajo está influenciado por el jazz contemporáneo, fusionado con ritmos étnicos y algunas corrientes postonales de la escuela clásica, varias de las composiciones de Claudia Martínez han sido presentadas con gran éxito en festivales nacionales e internacionales.</p>
                          
                         </div>
@@ -104,11 +98,8 @@
                     <div class="card  ">
 
 
-                        <iframe class="d-flex  card-img-top " width="100%" height="166" scrolling="no" frameborder="no"
-                            allow="autoplay"
-                            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/322938437&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                        <div class="card-body">
-                            <h5 class="card-title">Runa Jazz </h5>
+                            <div class="card-body">
+                            <h5 class="card-title pb-3"> <b> Runa Jazz </b></h5>
                             <p class="card-text text-justify">Nació hace un poco más de tres años, Curi Chachimuel es el compositor y el que junto a estudiantes de la Universidad San Francisco de Quito interpretan las composiciones en las cuales podemos notar la diversidad cultural andina con los ritmos tradicionales latinoamericanos y por supuesto el jazz.</p>
                            
                         </div>
@@ -120,11 +111,8 @@
                     <div class="card  ">
 
 
-                        <iframe class="d-flex  card-img-top " width="100%" height="166" scrolling="no" frameborder="no"
-                            allow="autoplay"
-                            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/146036156&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                        <div class="card-body">
-                            <h5 class="card-title">Jazz The Roots </h5>
+                                 <div class="card-body">
+                            <h5 class="card-title pb-3"> <b> Jazz The Roots </b> </h5>
                             <p class="card-text text-justify">Se gesta gracias a la iniciativa de Ismael y Gabriel, quienes planeaban sin mayor proyección en el momento, concebir un proyecto que mezcle básicamente el ritmo y groove del reggae con la improvisación y lenguaje del jazz.</p>
                            
                         </div>
@@ -150,6 +138,16 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
+                               <!--Navbar scroll-->
+                               <script>
+                                $(window).scroll(function() {
+                                    if ($("#navbarcc").offset().top > 200) {
+                                        $("#navbarcc").addClass("c_color");
+                                    } else {
+                                        $("#navbarcc").removeClass("c_color");
+                                    }
+                                });
+                            </script>  
 </body>
 
 </html>
