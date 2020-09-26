@@ -1,11 +1,11 @@
 /*Varibales*/
 
 :root {
-    --navbar: #1e5e60;
-    --color_letra: #f2f2f2;
-    --color_letra_2: #212529;
-    --background_generos: #84bfa4;
-    --color_letra_generos: #002f37;
+    --navbar: #000000 ;
+    --color_letra: #ffffff;
+    --color_letra_inico: ;
+    --background_generos: #edecec;
+    --color_letra_generos: #edecec;
 }
 
 
@@ -15,17 +15,17 @@
     background-color: var(--color_letra_generos);
 }
 
-#genero h1 {
-    color: var(--color_letra);
+#genero h1, #genero a {
+    color: #171717;
     margin: 0;
 }
 .p1{
     color: var(--color_letra);
-    font-family: 'Courgette', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 textarea{
-    font-family: 'Courgette', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 
@@ -34,11 +34,11 @@ textarea{
 body {
     /*font-family: 'Chelsea Market', cursive;
 */
-font-family: 'Lobster', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
 }
 
 h2{
-    font-family: 'Courgette', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 div {
@@ -116,10 +116,11 @@ header .overlay {
 
 /* Navbar*/
 .navbar {
-    background-color: var(--navbar);
-    opacity: 1;
-    /*height: 9vh;*/
-    width: 100%;
+    background-color: rgba(0,0,0,0.2) !important;
+    height: auto;
+    width: 100%;    
+   background: none;
+
 }
 
 .nav-link {
@@ -133,15 +134,16 @@ header .overlay {
     color: var(--color_letra);
 }
 
-/* boton letra y acordes*/
-.btn-primary{
-    background-color: #ff5500;
-    border-color: transparent;
+
+.c_color {
+
+    transition: all 1s ease;
+    background: linear-gradient(to bottom, #171717, #171717);
 }
-.btn-primary:hover{
-    background-color: #ff5500ce;
-    border-color: transparent;
-}
+
+
+
+
 /*texto carta*/
 
 .card-text{
@@ -179,4 +181,9 @@ textarea{
 
     height: 100vh;
     width: 100%;
+}
+
+.tab-pane{
+    padding: 0;
+    margin: 0;
 }
