@@ -154,12 +154,8 @@ header .overlay {
 }
 
 
-.card-img{
-    width: 220px;
-    height: 300px;
+img{
+    height: 170px;
     
-    padding: 0;
-    margin: 0;
-  
+   
 }
-
