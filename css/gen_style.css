@@ -153,9 +153,17 @@ header .overlay {
     color: #171717;
 }
 
+.card-body{
+    padding: 15px;  
+    padding-left: 0px;
+}
+.col-4{
+    padding-right: 0px;
+    padding-left: 30px;
+}
 
 img{
     height: 170px;
-    
+   
    
 }
