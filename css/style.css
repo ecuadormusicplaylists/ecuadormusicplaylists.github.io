@@ -79,7 +79,7 @@ header {
 header h1,
 h2 {
     color: var(--color_letra);
-    text-shadow: 2px 2px 3px darkgray;
+    text-shadow: 2px 2px 3px #a9a9a9;
 }
 
 header img {
